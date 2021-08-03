@@ -5,7 +5,10 @@ public class TestException1 {
         try {
             //Object ref = null;
             //ref.toString();
-            int i=10/0;
+            //int n=10/0;
+            int ar[] = {1, 2, 3, 4, 5};
+            for (int i=0; i<=ar.length; i++)
+                System.out.println(ar[i]);
         }
         catch(Exception e){
             e.printStackTrace();
