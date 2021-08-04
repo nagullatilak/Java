@@ -37,29 +37,8 @@ public class TestSet {
         System.out.println("Z".compareTo("A"));
         System.out.println("B".compareTo("B"));
 
-      /*  //Comparator Interface
-        TreeSet<Integer> tsc = new TreeSet<>(new MyComparator());
-        tsc.add(10);
-        tsc.add(1);
-        tsc.add(8);
-        tsc.add(5);
-        System.out.println(ts);*/
+
 
     }
 }
-/*class MyComparator implements Comparator{
-    public int compare(Object o1,Object o2){
-        Integer i1 =(Integer) o1;
-        Integer i2 =(Integer) o2;
-        if(i1<i2){
-            return +1;
-        }
-        else if(i1>i2){
-            return  -1;
-        }
-        else{
-            return 0;
-        }
-    }
 
-}*/

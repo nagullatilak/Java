@@ -1,5 +1,5 @@
 package com.company;
-class Father{
+class FatherAssets{
     public void home(){
         System.out.println("Fathers Home");
     }
@@ -7,7 +7,7 @@ class Father{
         System.out.println(("Fathers  Car"));
     }
 }
-class Son extends Father{
+class SonAssets extends FatherAssets{
     @Override
     public  void car(){
         System.out.println(("Sons  Car"));
@@ -15,10 +15,10 @@ class Son extends Father{
 }
 public class TestOverRidding {
     public  static  void main(String[] args){
-        Son s = new Son();
+        SonAssets s = new SonAssets();
         s.car();
         s.home();
-        Father f = new Father();
+        FatherAssets f = new FatherAssets();
         f.car();
         f.home();
 
